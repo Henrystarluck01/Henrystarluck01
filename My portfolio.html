@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Henry's portfolio</title>
+  <link   rel="stylesheet" href="portfolio .css">
+  <link  rel="Top" href="Top">
+  <style>
+  span{highlight:red;}
+li{display:inline;
+  gap:10px;
+  margin-left:5px;
+}
+#Move{animation-name: example1;
+  animation-duration: 20s;}
+@keyframes example1 {
+  from {margin-left :100px;}
+  to {margin-left:0px;}
+}
+#nav-links{
+  display:flex;
+}
+#me{
+  border:2px;
+  background-color:#40E0D0;
+  border-style:solid;
+  border-color:red;
+  border-radius:15px;
+  align-content: center;
+  align-items: center;
+  animation-name: example;
+  animation-duration: 10s;
+}
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: #40E0D0;}
+}
+body{
+  background-color:white;
+  width:100rh;
+  display:block;
+  background-image:Henry.jpg;
+  align-content: center;
+  align-items: center;
+  font-family: times new roman;
+  animation-name: body;
+  animation-duration: 50s;
+  margin:20px;
+}
+@keyframes body{
+  from {margin-bottom:100px;}
+  to {mqrgin-bottom:0px;}
+}
+img{width:100px;
+  margin-left:10px
+  ;border-radius:15px;
+}
+#projects{
+  border:2px;
+  border-style:solid;
+  border-color:black;
+background-color: rgb(60, 122, 187);
+  border-radius:15px;
+  align-content: center;
+  align-items: center;
+}
+a{font-color:red;}
+
+#contacts{border:2px;
+  border-style:solid;
+  border-color:black;
+  background-color: rgb(122, 122, 187);
+  border-radius:15px;
+  align-content: center;
+  align-items: center;
+margin-bottom: 60px;}
+
+#forms{border:2px;
+  border-style:solid;
+  border-color:black;
+  background-color:#0096FF;
+  border-radius:15px;
+  align-content: center;
+  align-items: center;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+input{margin-left:30px;
+  margin-top:5px;
+  border-color:red;
+  border-radius:10px;
+}
+textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  border-style:solid;
+  margin-left:30px;
+  border-color:red;
+  border-radius:15px;
+  width:200px;
+  
+}
+button{margin-bottom: 50px;
+  margin-left:70px;
+  border-color:red;
+  border-radius:15px;
+  
+}
+label{margin-left:20px;
+  margin-top:10px;
+}
+span{color:darkolivegreen;font-weight:bold;}</style>
+</head>
+<body>
+  <hr>
+  <div id="links">
+    <span>
+    <nav id="nav-links">
+      <ul>
+        <li><a href="#Projects"|projects</a></li>
+        <li><a href="#About"> | About</a></a></li>
+        <li><a href="#Contacts">| Contacts</a></li>       
+      <li><a href="#Talk">| Contact me </a></li>
+      </ul>
+    </nav>
+  </span>
+  <hr>
+  </div>
+  <h1>Welcome to my website</h1>
+<p id="Move">Hello its me,Henry Odhiambo Omondi.
+</p>
+<marquee><p><span>☆Hire me ◇Hire me☆Hire me◇☆Hire me ◇Hire me☆Hire me◇☆Hire me ◇Hire me☆Hire me◇ </span></p></marquee>
+<h2><a href="#About">About</a></h2>
+<div id="me">
+<p><img src="Henry.jpg" alt="this is my picture"></p>
+<p>
+  ○My names are Henry Odhiambo Omondi  from Kenya .<br>
+  ○I am an undergraduate at the University of Jaramogi Oginga Odinga located in Bondo in Siaya County.<br>
+  ○I am persuing a course in Bachelors degree in Computer security and Forensics and will be graduating God willing in the year 2028.<br>
+  ○I am a web developer and a programmer .<br>
+</p>
+</div>
+<h3 id="#Projects">
+  <a href="#Projects">Projects</a>
+  </h3>
+<div id="projects">
+<p>
+  I have many projects so far .<br>
+  Some of my projects include;
+  <ol><li><a href="henry.html" >A calculator</a></li>
+    <li> <a href="" ></a></li>
+    <li> <a href="" ></a></li>
+    <li></li><a href="" ></a></li>
+    </ol>
+</p>
+</div>
+<h4><a href="#Contacts">Contacts</a></h4>
+<div id="contacts">
+<p>
+  Your can reach me  through:
+  <ul>
+    <li>E-mail : henryomondi145@gmail.com</li><br>
+    <li>Tel no: 0748959858</li><br>
+    <li>Linked in: <a href="https://www.linkedin.com/in/henry-odhiambo-71336b328">Linked in account</a></li><br>
+    <li>facebook: <a href="https://www.facebook.com/profile.php?id=61559123189857&mibextid=ZbWKwL">facebook account</a></li><br>
+    <li>Github: @Henrystarluck01</li>
+  </ul>
+</p>
+</div>
+<h5><a href="#Talk">Contact me</a></h5>
+<form id="forms" name="input" action=" henryomondi145@gmail.com" method="post">
+  <label for="input">Topic</label><br>
+  <input type="text" placeholder="topic"><br>
+  <label for="textarea">Write here</label><br>
+  <textarea name="message" rows="10" columns="10"></textarea><br>
+  <button type="submit">Submit</button>
+</form>
+<a href="#Top">⬆Back to top</a>
+</body>
+</html>
